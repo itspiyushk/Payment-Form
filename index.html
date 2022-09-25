@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="">
+    <img src="image/razorpay-payment.png" width="10%" alt="Razorpay logo">
+    <h3>Customer Details</h3>
+    <p>Required Fields are followed by *</p>
+    <p>First Name: * <input type="text" name="First" id="First" required></p>
+    <p>Last Name: * <input type="text" name="Last" id="Last" required></p>
+    <fieldset>
+        <legend>Gender: </legend>
+    <p><Input type="radio" name="gender" id="Male"> Male <Input type="radio" name="gender" id="Female">Female</p>
+    </fieldset>
+    <p>Mobile No: <input type="number" name="Mobile" id="Call"></p>
+    <p>Address:<textarea name="address" id="address" cols="25" rows="3"></textarea></p>
+    <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <h3>Card Details</h3>
+    <p>Card Type:*
+        <select name="card_type" id="card_type" required>
+            <option value="">--select a card type</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">Mastercard</option>
+        </select>
+    </p>
+    <p>Card no.: * <input type="number" name="Card no" id="Card no" required></p>
+    <p>Expiry Date: * <input type="date" name="Expiry date" id="Expiry date" required></p>
+    <p>CVV: * <input type="password" name="CVV" id="CVV" required></p>
+    <input type="submit" value="Pay Now">
+</form>
+
+
+    
+
+    
+</body>
+</html>
